@@ -1,9 +1,6 @@
+m = int(input("Nhập số m: "))
+n = int(input("Nhập số n: "))
 
-ten_hang='Sữa chua Vina Milk'
-so_luong=5
-don_gia=25000
-tien_phai_tra=so_luong*don_gia
-print('Tên hàng: ',ten_hang)
-print('Số lượng: ',so_luong)
-print('Đơn giá: ',don_gia)
-print('Tiền phải trả: ',tien_phai_tra," vnd")
+for i in range(1, n+1):
+    if i % m == 0:
+        print(i)

@@ -1,0 +1,6 @@
+a=float(input("Nhập vào a: "))
+b=float(input("Nhập vào a: "))
+c=float(input("Nhập vào a: "))
+d=float(input("Nhập vào a: "))
+print("Max =",max(a,b,c,d))
+print("Min =",min(a,b,c,d))
